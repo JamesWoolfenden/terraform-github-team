@@ -1,28 +1,10 @@
-#Makefile
+SHELL := /bin/bash
 
-.PHONY: all
+# List of targets the `readme` target should call before generating the readme
+export README_DEPS ?= docs/targets.md docs/terraform.md
 
-all: init plan build
+-include $(shell curl -sSL -o .build-harness "https://raw.githubusercontent.com/JamesWoolfenden/build-harness/master/templates/Makefile.build-harness"; echo .build-harness)
 
-init:
-	rm -rf .terraform/modules/
-	terraform init -reconfigure
-
-plan: init
-	terraform plan -refresh=true
-
-build: init
-	terraform apply -auto-approve
-
-check: init
-	terraform plan -detailed-exitcode
-
-destroy: init
-	terraform destroy -force
-
-docs:
-	terraform-docs md . > README.md
-
-valid:
-	tflint
-	terraform fmt -check=true -diff=true
+## Lint terraform code
+lint:
+	$(SELF) terraform/install terraform/get-modules terraform/get-plugins terraform/lint terraform/validate

@@ -4,17 +4,21 @@ variable "common_tags" {
 }
 
 variable "team_privacy" {
-  type = "string"
+  type        = "string"
+  description = "Github team privacy"
 }
 
 variable "team_description" {
-  type = "string"
+  type        = "string"
+  description = "Description for Github team"
 }
 
 variable "team_name" {
-  type = "string"
+  type        = "string"
+  description = "Team name"
 }
 
 variable "users" {
-  type = "list"
+  type        = "list"
+  description = "List of Users"
 }
