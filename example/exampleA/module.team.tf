@@ -1,4 +1,4 @@
-module "team" {
+module team {
   source           = "../../"
   team_privacy     = var.team_privacy
   team_description = var.team_description
