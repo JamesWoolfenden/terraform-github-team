@@ -1,6 +1,6 @@
 [![Slalom][logo]](https://slalom.com)
 
-terraform-github-team [![Build Status](https://travis-ci.com/slalom-consulting-ltd/terraform-github-team.svg?branch=master)](https://travis-ci.com/slalom-consulting-ltd/terraform-github-team) [![Latest Release](https://img.shields.io/github/release/slalom-consulting-ltd/terraform-github-team.svg)](https://github.com/slalom-consulting-ltd/terraform-github-m/releases/latest)
+# terraform-github-team [![Build Status](https://travis-ci.com/slalom-consulting-ltd/terraform-github-team.svg?branch=master)](https://travis-ci.com/slalom-consulting-ltd/terraform-github-team) [![Latest Release](https://img.shields.io/github/release/slalom-consulting-ltd/terraform-github-team.svg)](https://github.com/slalom-consulting-ltd/terraform-github-m/releases/latest)
 
 Make and populate github teams with users.
 
@@ -91,6 +91,7 @@ under the License.
 
 | [![James Woolfenden][jameswoolfenden_avatar]][jameswoolfenden_homepage]<br/>[James Woolfenden][jameswoolfenden_homepage] |
 | ------------------------------------------------------------------------------------------------------------------------ |
+
 
 [jameswoolfenden_homepage]: https://github.com/jameswoolfenden
 [jameswoolfenden_avatar]: https://github.com/jameswoolfenden.png?size=150
