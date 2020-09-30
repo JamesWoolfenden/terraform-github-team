@@ -1,6 +1,5 @@
-[![Slalom][logo]](https://slalom.com)
 
-# terraform-github-team [![Build Status](https://travis-ci.com/slalom-consulting-ltd/terraform-github-team.svg?branch=master)](https://travis-ci.com/slalom-consulting-ltd/terraform-github-team) [![Latest Release](https://img.shields.io/github/release/slalom-consulting-ltd/terraform-github-team.svg)](https://github.com/slalom-consulting-ltd/terraform-github-m/releases/latest)
+# terraform-github-team [![Build Status](https://travis-ci.com/jameswoolfenden/terraform-github-team.svg?branch=master)](https://travis-ci.com/jameswoolfenden/terraform-github-team) [![Latest Release](https://img.shields.io/github/release/jameswoolfenden/terraform-github-team.svg)](https://github.com/jameswoolfenden/terraform-github-m/releases/latest)
 
 Make and populate github teams with users.
 
@@ -52,17 +51,17 @@ For additional context, refer to some of these links.
 
 **Got a question?**
 
-File a GitHub [issue](https://github.com/slalom-consulting-ltd/terraform-github-team/issues).
+File a GitHub [issue](https://github.com/jameswoolfenden/terraform-github-team/issues).
 
 ## Contributing
 
 ### Bug Reports & Feature Requests
 
-Please use the [issue tracker](https://github.com/slalom-consulting-ltd/terraform-github-team/issues) to report any bugs or file feature requests.
+Please use the [issue tracker](https://github.com/jameswoolfenden/terraform-github-team/issues) to report any bugs or file feature requests.
 
 ## Copyrights
 
-Copyright © 2019-2019 [Slalom, LLC](https://slalom.com)
+Copyright © 2019-2020 James Woolfenden
 
 ## License
 
@@ -95,13 +94,12 @@ under the License.
 
 [jameswoolfenden_homepage]: https://github.com/jameswoolfenden
 [jameswoolfenden_avatar]: https://github.com/jameswoolfenden.png?size=150
-[logo]: https://gist.githubusercontent.com/JamesWoolfenden/5c457434351e9fe732ca22b78fdd7d5e/raw/15933294ae2b00f5dba6557d2be88f4b4da21201/slalom-logo.png
-[website]: https://slalom.com
+
 [github]: https://github.com/jameswoolfenden
-[linkedin]: https://www.linkedin.com/company/slalom/
-[twitter]: https://twitter.com/Slalom
-[share_twitter]: https://twitter.com/intent/tweet/?text=terraform-github-team&url=https://github.com/slalom-consulting-ltd/terraform-github-team
-[share_linkedin]: https://www.linkedin.com/shareArticle?mini=true&title=terraform-github-team&url=https://github.com/slalom-consulting-ltd/terraform-github-team
-[share_reddit]: https://reddit.com/submit/?url=https://github.com/slalom-consulting-ltd/terraform-github-team
-[share_facebook]: https://facebook.com/sharer/sharer.php?u=https://github.com/slalom-consulting-ltd/terraform-github-team
-[share_email]: mailto:?subject=terraform-github-team&body=https://github.com/slalom-consulting-ltd/terraform-github-team
+[linkedin]: https://www.linkedin.com/in/jameswoolfenden/
+[twitter]: https://twitter.com/JimWoolfenden
+[share_twitter]: https://twitter.com/intent/tweet/?text=terraform-github-team&url=https://github.com/jameswoolfenden/terraform-github-team
+[share_linkedin]: https://www.linkedin.com/shareArticle?mini=true&title=terraform-github-team&url=https://github.com/jameswoolfenden/terraform-github-team
+[share_reddit]: https://reddit.com/submit/?url=https://github.com/jameswoolfenden/terraform-github-team
+[share_facebook]: https://facebook.com/sharer/sharer.php?u=https://github.com/jameswoolfenden/terraform-github-team
+[share_email]: mailto:?subject=terraform-github-team&body=https://github.com/jameswoolfenden/terraform-github-team
