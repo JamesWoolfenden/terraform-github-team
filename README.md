@@ -1,5 +1,10 @@
 
-# terraform-github-team [![Build Status](https://travis-ci.com/jameswoolfenden/terraform-github-team.svg?branch=master)](https://travis-ci.com/jameswoolfenden/terraform-github-team) [![Latest Release](https://img.shields.io/github/release/jameswoolfenden/terraform-github-team.svg)](https://github.com/jameswoolfenden/terraform-github-m/releases/latest)
+# terraform-github-team 
+
+[![Build Status](https://github.com/jameswoolfenden/terraform-github-team/workflows/Verify%20and%20Bump/badge.svg?branch=master)](https://github.com/jameswoolfenden/terraform-github-team)
+[![Latest Release](https://img.shields.io/github/release/jameswoolfenden/terraform-github-team.svg)](https://github.com/jameswoolfenden/terraform-github-team/releases/latest)
+[![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
+[![checkov](https://img.shields.io/badge/checkov-verified-brightgreen)](https://www.checkov.io/)
 
 Make and populate github teams with users.
 
