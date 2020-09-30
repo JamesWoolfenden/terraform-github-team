@@ -14,7 +14,7 @@ It's 100% Open Source and licensed under the [APACHE2](LICENSE).
 
 ## Introduction
 
-This module creat, manages and populates the Github team.
+Use this module to create, manage and populates a Github team.
 
 ## Usage
 
@@ -23,7 +23,8 @@ Add a **module.github.tf** with:
 
 ```terraform
 module github {
-   source="../terraform-github-team"
+   source  = "JamesWoolfenden/team/github"
+   version = "0.0.3"
    common_tags     = var.common_tags
    team_name       = var.team_name
    team_description= var.team_description
